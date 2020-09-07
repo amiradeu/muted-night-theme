@@ -1,0 +1,21 @@
+{
+  "name": "muted-night",
+  "displayName": "Muted Night",
+  "description": "Muted colors in dark theme with a subtle touch of rich color.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Muted Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/muted-night-color-theme.json"
+      }
+    ]
+  }
+}
