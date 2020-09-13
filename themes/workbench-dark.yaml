@@ -1,0 +1,105 @@
+colors:
+    foreground: _gold
+    # ------------------------------------------------
+    # LEFT MOST
+    # ------------------------------------------------
+    activityBar.background: _dark_gray,
+    activityBar.foreground: _gold,
+    activityBar.activeBackground: _lighter_pink,
+    activityBar.inactiveForeground: _lighter_gold,
+    activityBar.border: _red,
+    activityBar.activeBorder: _pink,
+    activityBarBadge.background: _pink,
+    activityBarBadge.foreground: _dark_gray,
+
+    # ------------------------------------------------
+    # FILES TREE
+    # ------------------------------------------------
+    sideBar.background: _dark_gray,
+    sideBar.foreground: _white,
+    sideBarTitle.foreground: _red,
+    sideBarSectionHeader.foreground: _gold,
+    sideBar.border: _darker_gray,
+
+    # ------------------------------------------------
+    #    hover
+    # ------------------------------------------------
+    list.hoverBackground: _darker_gray,
+    list.hoverForeground: _red,
+
+    # ------------------------------------------------
+    #    click
+    # ------------------------------------------------
+    list.activeSelectionBackground: _darker_gray,
+    list.activeSelectionForeground: _red,
+
+    # ------------------------------------------------
+    #    selected
+    # ------------------------------------------------
+    list.inactiveSelectionBackground: _darker_gray,
+    list.inactiveSelectionForeground: _red,
+
+    # ------------------------------------------------
+    # CODE EDITOR
+    # ------------------------------------------------
+    editor.foreground: _white,
+    editor.background: _dark_gray,
+    editorLineNumber.foreground: _lighter_gold,
+    editorGroupHeader.border: _darker_gray,
+    editor.lineHighlightBackground: _darker_gray,
+
+    # ------------------------------------------------
+    #    cursor
+    # ------------------------------------------------
+    editorCursor.foreground: _red,
+
+    # ------------------------------------------------
+    #    title
+    # ------------------------------------------------
+    tab.activeBorderTop: _red,
+    tab.activeForeground: _red,
+    tab.inactiveForeground: _lighter_gold,
+
+    # ------------------------------------------------
+    # NAVIGATION
+    # ------------------------------------------------
+    breadcrumb.foreground: _white,
+
+    # ------------------------------------------------
+    # PANEL
+    # ------------------------------------------------
+    panelTitle.activeForeground: _gold,
+    badge.background: _pink,
+    badge.foreground: _dark_gray,
+
+    # ------------------------------------------------
+    # NOTIFICATION
+    # ------------------------------------------------
+    notifications.background: _dark_gray,
+    notificationCenterHeader.background: _dark_gray,
+    notificationCenterHeader.foreground: _gold,
+    notifications.border: _pink,
+    notifications.foreground: _gold,
+    notificationsInfoIcon.foreground: _orange,
+    notificationsErrorIcon.foreground: _red,
+
+    # ------------------------------------------------
+    # INPUT
+    # ------------------------------------------------
+    input.background: _darker_gray,
+
+    # ------------------------------------------------
+    # BUTTON
+    # ------------------------------------------------
+    button.background: _blue,
+    button.foreground: _pure_white,
+
+    # ------------------------------------------------
+    # BOTTOM BAR
+    # ------------------------------------------------
+    statusBar.border: _darker_gray,
+    statusBar.background: _darker_gray,
+    statusBar.foreground: _gold,
+    statusBar.noFolderBackground: _dark_gray,
+    statusBar.noFolderForeground: _gold,
+    statusBar.debuggingBackground: _red

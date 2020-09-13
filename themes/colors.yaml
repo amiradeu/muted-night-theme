@@ -1,0 +1,32 @@
+# ------------------------------------------------
+# Colors
+# ------------------------------------------------
+_darker_gray: "#323232"
+_dark_gray: "#383838"
+_light_gray: "#616161"
+_white: "#E0E0E0"
+_pure_white: "FFFFFF"
+_gold: "#DCCAA9"
+_lighter_gold: "#DCCAA955"
+_orange: "#DC944D"
+_pink: "#F6D2DE"
+_lighter_pink: "F6D2DE11"
+_red: "#B05C52"
+_purple: "#6D708B"
+_green: "#659E65"
+_blue: "#8DACB4"
+# ------------------------------------------------
+# Dark Theme Colors
+# ------------------------------------------------
+_background_dark: _dark_gray
+_string_dark: _gold
+_text_dark: _white
+_comment_dark: _light_gray
+_variable_dark: _green
+_function_dark: _blue
+_attribute_dark: _orange
+_keyword_dark: _pink
+# ------------------------------------------------
+# Light Theme Colors
+# ------------------------------------------------
+# TODO : Add light color theme

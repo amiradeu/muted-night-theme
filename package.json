@@ -1,37 +1,43 @@
 {
-  "name": "theme-muted",
-  "version": "0.0.2",
-  "displayName": "Muted Official",
-  "description": "Muted colors in dark and light theme with a subtle touch of rich color.",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amiradeu/muted-theme.git"
-  },
-  "engines": {
-    "vscode": "^1.48.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "muted",
-    "dark",
-    "light",
-    "color-theme"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Muted Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/muted-night.json"
-      },
-      {
-        "label": "Muted Day",
-        "uiTheme": "vs",
-        "path": "./themes/muted-day.json"
-      }
-    ]
-  }
+    "name": "theme-muted",
+    "version": "0.0.3",
+    "displayName": "Muted Official",
+    "description": "Muted colors in dark and light theme with a subtle touch of rich color.",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amiradeu/muted-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "scripts": {
+        "build": "node build.js"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "muted",
+        "dark",
+        "light",
+        "color-theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Muted Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/muted-night.json"
+            },
+            {
+                "label": "Muted Day",
+                "uiTheme": "vs",
+                "path": "./themes/muted-day.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "js-yaml": "^3.14.0"
+    }
 }
