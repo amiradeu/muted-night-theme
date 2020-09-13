@@ -1,0 +1,47 @@
+name: Muted Night
+type: dark
+tokenColors:
+    # ------------------------------------------------
+    #    Comment
+    # ------------------------------------------------
+    - name: Comment
+      scope: comment
+      settings:
+          fontStyle: italic
+          foreground: _light-gray
+    # ------------------------------------------------
+    #    String
+    # ------------------------------------------------
+    - name: String
+      scope: string
+      settings:
+          foreground: _gold
+    # ------------------------------------------------
+    #    Variable
+    # ------------------------------------------------
+    - name: Variable
+      scope: variable
+      settings:
+          fontStyle: bold
+          foreground: _orange
+    # ------------------------------------------------
+    #    Keyword
+    # ------------------------------------------------
+    - name: Keyword
+      scope: keyword.control
+      settings:
+          foreground: _pink
+    # ------------------------------------------------
+    #    Function
+    # ------------------------------------------------
+    - name: Function
+      scope: entity.name.function
+      settings:
+          foreground: _blue
+    # ------------------------------------------------
+    #    Attribute
+    # ------------------------------------------------
+    - name: Attribute
+      scope: entity.other.attribute-name
+      settings:
+          foreground: _green

@@ -28,12 +28,12 @@
             {
                 "label": "Muted Night",
                 "uiTheme": "vs-dark",
-                "path": "./themes/muted-night.json"
+                "path": "./dist/muted-night.json"
             },
             {
                 "label": "Muted Day",
                 "uiTheme": "vs",
-                "path": "./themes/muted-day.json"
+                "path": "./dist/muted-day.json"
             }
         ]
     },
