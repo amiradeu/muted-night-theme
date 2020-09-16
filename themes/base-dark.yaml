@@ -17,6 +17,13 @@ tokenColors:
       settings:
           foreground: _gold
     # ------------------------------------------------
+    #    Constant
+    # ------------------------------------------------
+    - name: Constant
+      scope: constant
+      settings:
+          foreground: _orange
+    # ------------------------------------------------
     #    Variable
     # ------------------------------------------------
     - name: Variable
@@ -35,7 +42,7 @@ tokenColors:
     #    Function
     # ------------------------------------------------
     - name: Function
-      scope: entity.name.function
+      scope: entity.name.function, meta.function-call, variable.function, support.function
       settings:
           foreground: _blue
     # ------------------------------------------------
@@ -43,5 +50,12 @@ tokenColors:
     # ------------------------------------------------
     - name: Attribute
       scope: entity.other.attribute-name
+      settings:
+          foreground: _blue
+    # ------------------------------------------------
+    #    Punctuation
+    # ------------------------------------------------
+    - name: Punctuation
+      scope: punctuation.definition.expression
       settings:
           foreground: _green

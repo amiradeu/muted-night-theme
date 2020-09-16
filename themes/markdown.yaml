@@ -1,0 +1,83 @@
+# Headings Text
+- scope: entity.name.section.markdown
+  settings:
+      foreground: _gold
+# Headings Punctuation
+- scope: punctuation.definition.heading
+  settings:
+      foreground: _blue
+# Bold Text
+- scope: markup.bold
+  settings:
+      fontStyle: bold
+      foreground: _red
+# Bold Punctuation
+- scope: punctuation.definition.bold.markdown
+  settings:
+      fontStyle: bold
+      foreground: _pink
+# Italic Text
+- scope: markup.italic
+  settings:
+      fontStyle: italic
+      foreground: _lighter-green
+# Italic Punctuation
+- scope: punctuation.definition.italic.markdown
+  settings:
+      fontStyle: italic
+      foreground: _pink
+# Blockquote
+- scope: markup.quote
+  settings:
+      foreground: _yellow
+# List Punctuation
+- scope: punctuation.definition.list
+  settings:
+      foreground: _green
+# Inline Code
+- scope: markup.inline
+  settings:
+      fontStyle: italic
+      foreground: _orange
+# Fenced Code Block
+- scope: markup.fenced_code.block.markdown
+  settings:
+      fontStyle: italic
+      foreground: _orange
+# Link Title, Image Title
+- scope: string.other.link.title.markdown, string.other.link.description.markdown, constant.other.reference.link.markdown
+  settings:
+      foreground: _pink
+# Link, Title
+- scope: meta.link.inline.markdown, meta.image.inline.markdown, markup.underline.link.markdown
+  settings:
+      fontStyle: italic
+      foreground: _lighter-blue
+# Escape Character
+- scope: constant.character.escape.markdown
+  settings:
+      foreground: _pink
+
+- scope: markup.changed
+  settings:
+      foreground: _pink
+- scope: markup.deleted
+  settings:
+      foreground: _red
+# - scope: markup.inserted
+#   settings:
+#       foreground: _green
+
+# # Block Quotes
+# - scope: markup.quote
+#   settings:
+#       foreground: _orange
+# # Inline code blocks: `code`
+# - scope: markup.inline.raw
+#   settings:
+#       foreground: _green
+#       fontStyle: italic
+
+# - scope: text.html.markdown punctuation.definition.string
+#   settings:
+#       foreground: _orange
