@@ -30,7 +30,15 @@ tokenColors:
       scope: variable
       settings:
           fontStyle: bold
-          foreground: _orange
+          foreground: _pink
+    # ------------------------------------------------
+    #    Variable Parameter
+    # ------------------------------------------------
+    - name: Variable
+      scope: variable.parameter
+      settings:
+          fontStyle: italic
+          foreground: _code-gray
     # ------------------------------------------------
     #    Keyword
     # ------------------------------------------------
@@ -42,7 +50,9 @@ tokenColors:
     #    Function
     # ------------------------------------------------
     - name: Function
-      scope: entity.name.function, meta.function-call, variable.function, support.function
+      scope:
+          meta.function.js
+          # entity.name.function, meta.function-call, variable.function, support.function
       settings:
           foreground: _blue
     # ------------------------------------------------

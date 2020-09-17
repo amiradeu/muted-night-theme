@@ -17,6 +17,7 @@ let base_light = yaml.safeLoad(readFileSync("themes/base-light.yaml", "utf-8"));
 // ------------------------------------------------
 let json_dark = yaml.safeLoad(readFileSync("themes/json.yaml"));
 let markdown_dark = yaml.safeLoad(readFileSync("themes/markdown.yaml"));
+let html_dark = yaml.safeLoad(readFileSync("themes/html.yaml"));
 
 // ------------------------------------------------
 // Load workbench theme
@@ -35,7 +36,8 @@ Object.assign(base_dark, workbench_dark);
 // Merge additional syntax token styles
 base_dark.tokenColors = base_dark.tokenColors.concat(
 	json_dark,
-	markdown_dark
+	markdown_dark,
+	html_dark
 	// 	template,
 	// 	markdown,
 	// 	js,

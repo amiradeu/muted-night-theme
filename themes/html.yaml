@@ -1,0 +1,23 @@
+# HTML Tags
+- scope: entity.name.tag.html
+  settings:
+      foreground: _red
+# HTML Attribute
+- scope: entity.other.attribute-name.html
+  settings:
+      foreground: _blue
+# HTML Attribute Value
+- scope: string.quoted.double.html
+  settings:
+      foreground: _gold
+# HTML HREF, HTML SRC
+- scope: meta.attribute.href.html string.quoted.double.html,
+      meta.attribute.src.html string.quoted.double.html,
+      meta.attribute.cite.html string.quoted.double.html,
+      meta.attribute.action.html string.quoted.double.html
+  settings:
+      foreground: _lighter-blue
+# JS CLICK
+- scope: meta.embedded.line.js string.quoted.double.html, entity.name.function.js
+  settings:
+      foreground: _purple
