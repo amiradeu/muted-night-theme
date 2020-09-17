@@ -1,46 +1,31 @@
 Headings
 
-# H1
+# Markdown Overview
 
-## H2
+A text can be **bold** and it can also be _italicized_. Sometimes it can also be ~~strikethrough~~
 
-### H3
+You can make task list:
 
-Bold
+1. First, wash the vegetables.
+2. Second, cook em' with olive oil.
+3. Enjoy the food.
 
-This is a **bold text** that makes things pop out!
+You can also make a bullet list:
 
-Italic
+-   Bell pepper
+-   Noodles
+-   Coca-cola
+-   Ice cream
 
-_italicized text_
+> A wise _**man**_ once said something, but it could have also been a _**woman**_.
+> So just put it here. People will relate it to something.
 
-This text is **_really important_**.
+Several sustainable stores I want to buy from:
 
-Strikethrough
-~~The world is flat.~~
-
-Blockquote
-
-> blockquote is a quote
-
-> #### The quarterly results look great!
->
-> -   Revenue was off the chart.
-> -   Profits were higher than ever.
->
->     _Everything_ is going according to **plan**.
-
-Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-Unordered List
-
--   First item
--   Second item
--   Third item
+-   [] [Everlane](https://everlane.com)
+-   [] [Veja](https://veja.com)
+-   [] [Tsuki Market](https://tsuki.market)
+-   [x] [Etiko](https://etiko.com)
 
 \* Without the backslash, this would be a bullet in an unordered list.
 
@@ -83,9 +68,3 @@ Table
 Definition List
 term
 : definition
-
-Task List
-
--   [x] Write the press release
--   [ ] Update the website
--   [ ] Contact the media

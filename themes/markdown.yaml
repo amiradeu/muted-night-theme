@@ -3,6 +3,7 @@
 # Headings Text
 - scope: entity.name.section.markdown
   settings:
+      fontStyle: bold
       foreground: _gold
 # Headings Punctuation
 - scope: punctuation.definition.heading
@@ -12,22 +13,12 @@
 - scope: markup.bold
   settings:
       fontStyle: bold
-      foreground: _lighter-red
-# Bold Punctuation
-- scope: punctuation.definition.bold.markdown
-  settings:
-      fontStyle: bold
       foreground: _red
 # Italic Text
 - scope: markup.italic
   settings:
       fontStyle: italic
-      foreground: _lighter-green
-# Italic Punctuation
-- scope: punctuation.definition.italic.markdown
-  settings:
-      fontStyle: italic
-      foreground: _green
+      foreground: _yellow
 # Blockquote
 - scope: markup.quote
   settings:
@@ -35,7 +26,7 @@
 # Blockquote Punctuation
 - scope: punctuation.definition.quote.begin.markdown
   settings:
-      foreground: _yellow
+      foreground: _purple
 # List Punctuation
 - scope: punctuation.definition.list
   settings:
@@ -44,12 +35,12 @@
 - scope: markup.inline
   settings:
       fontStyle: italic
-      foreground: _orange
+      foreground: _code-gray
 # Fenced Code Block
 - scope: markup.fenced_code.block.markdown
   settings:
       fontStyle: italic
-      foreground: _orange
+      foreground: _gray
 # Link Title, Image Title
 - scope: string.other.link.title.markdown, string.other.link.description.markdown, constant.other.reference.link.markdown
   settings:
@@ -62,28 +53,4 @@
 # Escape Character
 - scope: constant.character.escape.markdown
   settings:
-      foreground: _pink
-
-- scope: markup.changed
-  settings:
-      foreground: _pink
-- scope: markup.deleted
-  settings:
-      foreground: _red
-# - scope: markup.inserted
-#   settings:
-#       foreground: _green
-
-# # Block Quotes
-# - scope: markup.quote
-#   settings:
-#       foreground: _orange
-# # Inline code blocks: `code`
-# - scope: markup.inline.raw
-#   settings:
-#       foreground: _green
-#       fontStyle: italic
-
-# - scope: text.html.markdown punctuation.definition.string
-#   settings:
-#       foreground: _orange
+      foreground: _orange

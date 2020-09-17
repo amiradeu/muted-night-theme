@@ -8,7 +8,7 @@ tokenColors:
       scope: comment
       settings:
           fontStyle: italic
-          foreground: _light-gray
+          foreground: _gray
     # ------------------------------------------------
     #    String
     # ------------------------------------------------
