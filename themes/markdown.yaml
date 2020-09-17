@@ -1,3 +1,5 @@
+# TODO: Target strikethrough ~x~
+
 # Headings Text
 - scope: entity.name.section.markdown
   settings:
@@ -10,12 +12,12 @@
 - scope: markup.bold
   settings:
       fontStyle: bold
-      foreground: _red
+      foreground: _lighter-red
 # Bold Punctuation
 - scope: punctuation.definition.bold.markdown
   settings:
       fontStyle: bold
-      foreground: _pink
+      foreground: _red
 # Italic Text
 - scope: markup.italic
   settings:
@@ -25,9 +27,13 @@
 - scope: punctuation.definition.italic.markdown
   settings:
       fontStyle: italic
-      foreground: _pink
+      foreground: _green
 # Blockquote
 - scope: markup.quote
+  settings:
+      fontStyle: italic
+# Blockquote Punctuation
+- scope: punctuation.definition.quote.begin.markdown
   settings:
       foreground: _yellow
 # List Punctuation
