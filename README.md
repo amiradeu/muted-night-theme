@@ -2,6 +2,19 @@
 
 > A Muted colors in dark and light theme with a subtle touch of rich color
 
+## Supported Languages
+
+To add syntax:
+
+-   [x] Markdown \*.md
+-   [x] JSON \*.json
+-   [x] Hypertext Markup Language \*.html
+-   [] Content Style Sheet \*.css
+-   [] Javascript \*.js
+-   [] React \*.jsx
+-   [] Vue
+-   [] Angular
+
 ## Color Palette
 
 | Palette      | Semantic   | Hex       | RGB             | 🌈                             |
