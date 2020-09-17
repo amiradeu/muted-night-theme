@@ -1,0 +1,91 @@
+/*
+Credit @dekadentno https://github.com/dekadentno/css-cheat-sheet 
+*/
+
+.box {
+	margin: 30px 20px 15px 5px; /* top-right-bottom-left */
+	padding: 30px;
+	border: 1px solid black;
+	width: 400px; /* width of the blue box */
+	height: 200px;
+	/* 
+      total width will be 522px = 400px + 2*margin + 2*padding + 2*border 
+      that means that if we set the width to 100%, it can break through and produce unwanted behavior
+      pay attention to collapsing margins - 30px + 30px =/= 60px.
+    */
+}
+
+.container {
+	font-size: 12px;
+}
+article {
+	font-size: 14px;
+}
+article h2 {
+	font-size: 2em; /* inherit font size from article and miltiple it by 2 */
+}
+article p {
+	font-size: 50%; /* inherit font size from article and take 50% of size */
+}
+
+.container {
+	font-family: arial, helvetica, sans-serif; /* if arial is not available, use helvetica etc. */
+}
+
+.container {
+	height: 100px; /* static height */
+	width: 300px; /* static width, no matter how big the browser is */
+	width: 70%; /* dynamic, width is 70% of the parent element */
+}
+.container {
+	width: 40%;
+	display: inline-block; /* display inline but keep respecting the box model (block elements) */
+}
+
+.container {
+	width: 500px;
+	height: 500px;
+	background-color: #606060;
+	background-image: url(https:url);
+	background-repeat: no-repeat; /* if the image is smaller than the container and we don't want it to repeat */
+	background-position: center; /* or we can specify in pixels */
+	background-size: 100px; /* if we have an background image, we can resize it */
+}
+
+/*
+the easiest way to declare them and use them anywhere,
+because they are scoped to the element where they are defined 
+*/
+:root {
+	--my-color: #aabbcc;
+}
+.box {
+	color: var(--my-color);
+	width: 500px;
+	height: 500px;
+}
+
+.outro-text {
+	color: var(--my-color);
+}
+
+/* media query example */
+
+@media screen and (max-width: 1400px) {
+	/*
+    on devices with screen width less than 1400 pixels, I want to apply these styles
+    or: when it reaches this width or below, apply these styles
+    we are adding just the styles that we want to override
+    */
+	.test {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 620px) {
+	/*
+    on devices with screen width at least 620 pixels, I want to apply these styles
+    */
+	.test {
+		font-size: 14px;
+	}
+}
