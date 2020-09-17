@@ -3,8 +3,8 @@
 # ------------------------------------------------
 _darker-gray: "#323232"
 _dark-gray: "#383838"
-_code-gray: "#778583"
-_gray: "#A3A3A0"
+_code-gray: "#A3A3A0"
+_comment-gray: "#778583"
 _white: "#E0E0E0"
 _pure-white: "#FFFFFF"
 _yellow: "#FFD074"

@@ -1,25 +1,25 @@
 # TODO: Target strikethrough ~x~
 
-# Headings Text
+# Heading Text
 - scope: entity.name.section.markdown
   settings:
       fontStyle: bold
       foreground: _gold
-# Headings Punctuation
+# Heading Punctuation
 - scope: punctuation.definition.heading
   settings:
       foreground: _blue
-# Bold Text
+# Bold Text & Punctuation
 - scope: markup.bold
   settings:
       fontStyle: bold
       foreground: _red
-# Italic Text
+# Italic Text & Punctuation
 - scope: markup.italic
   settings:
       fontStyle: italic
       foreground: _yellow
-# Blockquote
+# Blockquote Text
 - scope: markup.quote
   settings:
       fontStyle: italic
@@ -40,7 +40,7 @@
 - scope: markup.fenced_code.block.markdown
   settings:
       fontStyle: italic
-      foreground: _gray
+      foreground: _code-gray
 # Link Title, Image Title
 - scope: string.other.link.title.markdown, string.other.link.description.markdown, constant.other.reference.link.markdown
   settings:

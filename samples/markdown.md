@@ -1,8 +1,6 @@
-Headings
-
 # Markdown Overview
 
-A text can be **bold** and it can also be _italicized_. Sometimes it can also be ~~strikethrough~~
+A text can be **bold** and it can also be _italicized_. Sometimes it can also be ~~strikethrough~~.
 
 You can make task list:
 
