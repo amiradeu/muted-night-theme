@@ -6,7 +6,7 @@
       fontStyle: bold
       foreground: _gold
 # Heading Punctuation
-- scope: punctuation.definition.heading
+- scope: punctuation.definition.heading.markdown
   settings:
       foreground: _blue
 # Bold Text & Punctuation
@@ -28,7 +28,7 @@
   settings:
       foreground: _purple
 # List Punctuation
-- scope: punctuation.definition.list
+- scope: punctuation.definition.list.begin.markdown
   settings:
       foreground: _green
 # Inline Code
