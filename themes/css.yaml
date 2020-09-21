@@ -1,0 +1,13 @@
+# CSS Selector
+- scope: meta.selector.css
+  settings:
+      foreground: _blue
+# CSS Property
+- scope: meta.property-name.css
+  settings:
+      foreground: _gold
+# CSS Variable
+- scope: variable.css
+  settings:
+      fontStyle: italic
+      foreground: _pink

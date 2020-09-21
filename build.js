@@ -18,6 +18,7 @@ let base_light = yaml.safeLoad(readFileSync("themes/base-light.yaml", "utf-8"));
 let json_dark = yaml.safeLoad(readFileSync("themes/json.yaml"));
 let markdown_dark = yaml.safeLoad(readFileSync("themes/markdown.yaml"));
 let html_dark = yaml.safeLoad(readFileSync("themes/html.yaml"));
+let css_dark = yaml.safeLoad(readFileSync("themes/css.yaml"));
 
 // ------------------------------------------------
 // Load workbench theme
@@ -37,7 +38,8 @@ Object.assign(base_dark, workbench_dark);
 base_dark.tokenColors = base_dark.tokenColors.concat(
 	json_dark,
 	markdown_dark,
-	html_dark
+	html_dark,
+	css_dark
 	// 	template,
 	// 	markdown,
 	// 	js,
