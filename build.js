@@ -15,7 +15,7 @@ let base_light = yaml.safeLoad(readFileSync("themes/base-light.yaml", "utf-8"));
 // ------------------------------------------------
 // Load language specific theme
 // ------------------------------------------------
-let json_dark = yaml.safeLoad(readFileSync("themes/json.yaml"));
+let json_dark = yaml.safeLoad(readFileSync("themes/jsonjs.yaml"));
 let markdown_dark = yaml.safeLoad(readFileSync("themes/markdown.yaml"));
 let html_dark = yaml.safeLoad(readFileSync("themes/html.yaml"));
 let css_dark = yaml.safeLoad(readFileSync("themes/css.yaml"));

@@ -54,7 +54,7 @@ tokenColors:
           meta.function.js
           # entity.name.function, meta.function-call, variable.function, support.function
       settings:
-          foreground: _blue
+          foreground: _orange
     # ------------------------------------------------
     #    Attribute
     # ------------------------------------------------

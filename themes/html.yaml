@@ -17,7 +17,3 @@
       meta.attribute.action.html string.quoted.double.html
   settings:
       foreground: _lighter-blue
-# JS CLICK
-- scope: meta.embedded.line.js string.quoted.double.html, entity.name.function.js
-  settings:
-      foreground: _purple

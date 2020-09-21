@@ -1,0 +1,24 @@
+# JSON
+- name: JSON Key - All Level
+  scope: support.type.property-name.json
+  settings:
+      foreground: _blue
+# JS Function's name
+- scope: meta.embedded.line.js string.quoted.double.html, entity.name.function.js
+  settings:
+      foreground: _blue
+# JS Storage - const, let, var, constructor
+- scope: storage.type.js
+  settings:
+      foreground: _yellow
+# JS Storage's Name
+- scope: variable.other.readwrite.js, variable.other.constant.js
+  settings:
+      foreground: _white
+- scope: variable.other.object.js, variable.other.object.property.js
+  settings:
+      fontStyle: none
+      foreground: _pink
+- scope: variable.other.property.js
+  settings:
+      foreground: _lighter-red
