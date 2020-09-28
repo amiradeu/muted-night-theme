@@ -4,21 +4,34 @@
   settings:
       foreground: _blue
 # JS Function's name
-- scope: meta.embedded.line.js string.quoted.double.html, entity.name.function.js
+- scope: meta.embedded.line.js string.quoted.double.html,
+      entity.name.function.js, support.function.js
   settings:
       foreground: _blue
-# JS Storage - const, let, var, constructor
-- scope: storage.type.js
+# JS Punctuation
+- scope: punctuation.definition.block.js,
+      punctuation.definition.parameters.begin.js,
+      punctuation.definition.parameters.end.js,
+      punctuation.accessor.js, punctuation.separator.comma.js,
+      punctuation.terminator.statement.js,
+      meta.brace.round.js
+  settings:
+      foreground: _white
+# JS Storage - const, let, var, constructor, class, extends
+- scope: storage.type.js, storage.type.class.js, storage.modifier.js
   settings:
       foreground: _yellow
 # JS Storage's Name
-- scope: variable.other.readwrite.js, variable.other.constant.js
+- scope: variable.other.constant.js,
+      meta.definition.variable.js variable.other.readwrite.js
   settings:
-      foreground: _white
-- scope: variable.other.object.js, variable.other.object.property.js
+      foreground: _green
+- scope: variable.other.object.js, variable.other.object.property.js,
+      variable.language.this.js
   settings:
       fontStyle: none
       foreground: _pink
-- scope: variable.other.property.js
+# JS Keywords
+- scope: keyword.operator.new.js
   settings:
       foreground: _lighter-red

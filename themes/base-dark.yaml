@@ -20,7 +20,7 @@ tokenColors:
     #    Constant
     # ------------------------------------------------
     - name: Constant
-      scope: constant
+      scope: constant, punctuation.definition.template-expression
       settings:
           foreground: _orange
     # ------------------------------------------------
@@ -29,8 +29,7 @@ tokenColors:
     - name: Variable
       scope: variable
       settings:
-          fontStyle: bold
-          foreground: _pink
+          foreground: _white
     # ------------------------------------------------
     #    Variable Parameter
     # ------------------------------------------------
@@ -50,11 +49,9 @@ tokenColors:
     #    Function
     # ------------------------------------------------
     - name: Function
-      scope:
-          meta.function.js
-          # entity.name.function, meta.function-call, variable.function, support.function
+      scope: meta.function
       settings:
-          foreground: _orange
+          foreground: _yellow
     # ------------------------------------------------
     #    Attribute
     # ------------------------------------------------
