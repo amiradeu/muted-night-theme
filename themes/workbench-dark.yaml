@@ -40,8 +40,7 @@ colors:
     # ------------------------------------------------
     activityBar.border: _red # left-most
     sideBar.border: _pink # explorer
-    editorGroup.border: _red # between editor
-    panel.border: _gold # bottom terminal
+    editorGroup.border: _pink # between editor
 
     # ------------------------------------------------
     # CODE EDITOR

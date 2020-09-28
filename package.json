@@ -12,7 +12,7 @@
         "vscode": "^1.48.0"
     },
     "scripts": {
-        "build": "node build.js"
+        "start": "nodemon build.js"
     },
     "categories": [
         "Themes"
@@ -38,6 +38,7 @@
         ]
     },
     "devDependencies": {
-        "js-yaml": "^3.14.0"
+        "js-yaml": "^3.14.0",
+        "nodemon": "^2.0.4"
     }
 }

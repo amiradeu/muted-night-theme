@@ -26,6 +26,7 @@ let css_dark = yaml.safeLoad(readFileSync("themes/css.yaml"));
 const workbench_dark = yaml.safeLoad(
 	readFileSync("themes/workbench-dark.yaml", "utf-8")
 );
+
 const workbench_light = yaml.safeLoad(
 	readFileSync("themes/workbench-light.yaml", "utf-8")
 );

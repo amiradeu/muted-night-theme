@@ -1,0 +1,9 @@
+{
+    "ignore": [
+        "dist/*"
+    ],
+    "watch": [
+        "themes/*"
+    ],
+    "ext": "js yaml"
+}
