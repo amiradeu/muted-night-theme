@@ -11,7 +11,6 @@ colors:
     activityBar.foreground: _gold
     activityBar.activeBackground: _lighter-pink
     activityBar.inactiveForeground: _lighter-gold
-    activityBar.border: _red
     activityBar.activeBorder: _pink
     activityBarBadge.background: _pink
     activityBarBadge.foreground: _dark-gray
@@ -23,25 +22,26 @@ colors:
     sideBar.foreground: _white
     sideBarTitle.foreground: _red
     sideBarSectionHeader.foreground: _gold
-    sideBar.border: _darker-gray
 
-    # ------------------------------------------------
-    #    hover
-    # ------------------------------------------------
+    # hover
     list.hoverBackground: _darker-gray
     list.hoverForeground: _gold
 
-    # ------------------------------------------------
-    #    click
-    # ------------------------------------------------
+    # click
     list.activeSelectionBackground: _darker-gray
     list.activeSelectionForeground: _gold
 
-    # ------------------------------------------------
-    #    selected
-    # ------------------------------------------------
+    # selected
     list.inactiveSelectionBackground: _darker-gray
     list.inactiveSelectionForeground: _gold
+
+    # ------------------------------------------------
+    # WINDOW BORDERS
+    # ------------------------------------------------
+    activityBar.border: _red # left-most
+    sideBar.border: _pink # explorer
+    editorGroup.border: _red # between editor
+    panel.border: _gold # bottom terminal
 
     # ------------------------------------------------
     # CODE EDITOR
@@ -52,14 +52,10 @@ colors:
     editorGroupHeader.border: _darker-gray
     editor.lineHighlightBackground: _darker-gray
 
-    # ------------------------------------------------
-    #    cursor
-    # ------------------------------------------------
+    # cursor
     editorCursor.foreground: _red
 
-    # ------------------------------------------------
-    #    title
-    # ------------------------------------------------
+    # title
     tab.activeBorderTop: _red
     tab.activeForeground: _red
     tab.inactiveForeground: _lighter-gold
