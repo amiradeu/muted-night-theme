@@ -6,10 +6,6 @@
 - scope: entity.other.attribute-name.html
   settings:
       foreground: _pink
-# HTML Attribute Value
-# - scope: string.quoted.double.html
-#   settings:
-#       foreground: _gold
 # HTML HREF, HTML SRC
 - scope: meta.attribute.href.html string.quoted.double.html,
       meta.attribute.src.html string.quoted.double.html,
