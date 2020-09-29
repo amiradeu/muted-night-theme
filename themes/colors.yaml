@@ -3,8 +3,7 @@
 # ------------------------------------------------
 _darker-gray: "#323232"
 _dark-gray: "#383838"
-_code-gray: "#A3A3A0"
-_comment-gray: "#778583"
+_gray: "#A3A3A0"
 _white: "#E0E0E0"
 _pure-white: "#FFFFFF"
 _yellow: "#FFD074"
@@ -14,6 +13,7 @@ _lighter-gold: "#DCCAA955"
 _orange: "#DC944D"
 _pink: "#F6D2DE"
 _lighter-pink: "#F6D2DE11"
+# _darker-pink: "#754152"
 _red: "#B05C52"
 _lighter-red: "#FF7676"
 _purple: "#ACA7C9"
@@ -37,3 +37,5 @@ _transparent: "#00000000"
 # Light Theme Colors
 # ------------------------------------------------
 # TODO : Add light color theme
+# B1DED3
+# FAE5C8

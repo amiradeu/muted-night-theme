@@ -11,3 +11,8 @@
   settings:
       fontStyle: italic
       foreground: _pink
+# CSS Link
+- scope: variable.parameter.url.css
+  settings:
+      fontStyle: italic
+      foreground: _lighter-blue

@@ -1,37 +1,59 @@
+# ------------------------------------------------
 # JSON
+# ------------------------------------------------
 - name: JSON Key - All Level
   scope: support.type.property-name.json
   settings:
       foreground: _blue
+# ------------------------------------------------
+# JS
+# ------------------------------------------------
 # JS Function's name
-- scope: meta.embedded.line.js string.quoted.double.html,
-      entity.name.function.js, support.function.js
-  settings:
-      foreground: _blue
-# JS Punctuation
-- scope: punctuation.definition.block.js,
-      punctuation.definition.parameters.begin.js,
-      punctuation.definition.parameters.end.js,
-      punctuation.accessor.js, punctuation.separator.comma.js,
-      punctuation.terminator.statement.js,
-      meta.brace.round.js
-  settings:
-      foreground: _white
-# JS Storage - const, let, var, constructor, class, extends
-- scope: storage.type.js, storage.type.class.js, storage.modifier.js
-  settings:
-      foreground: _yellow
-# JS Storage's Name
-- scope: variable.other.constant.js,
-      meta.definition.variable.js variable.other.readwrite.js
-  settings:
-      foreground: _green
-- scope: variable.other.object.js, variable.other.object.property.js,
-      variable.language.this.js
-  settings:
-      fontStyle: none
-      foreground: _pink
-# JS Keywords
-- scope: keyword.operator.new.js
-  settings:
-      foreground: _lighter-red
+# - scope: meta.embedded.line.js string.quoted.double.html,
+#       entity.name.function.js, support.function.js
+#   settings:
+#       foreground: _yellow
+# # JS Punctuation
+# - scope: punctuation.definition.block.js,
+#       punctuation.definition.parameters.begin.js,
+#       punctuation.definition.parameters.end.js,
+#       punctuation.accessor.js, punctuation.separator.comma.js,
+#       punctuation.terminator.statement.js,
+#       meta.brace.round.js, punctuation.definition.binding-pattern.object.js
+#   settings:
+#       foreground: _white
+# # JS Storage - const, let, var, constructor, class, extends
+# - scope: storage.type.js, storage.type.class.js, storage.modifier.js
+#   settings:
+#       foreground: _red
+# # JS Storage's Name
+# # - scope: variable.other.constant.js,
+# #       meta.definition.variable.js variable.other.readwrite.js
+# #   settings:
+# #       foreground: _blue
+# - scope: variable.other.object.js, variable.other.object.property.js,
+#       variable.language.this.js, variable.language.super.js
+#   settings:
+#       fontStyle: none
+#       foreground: _pink
+# # JS Keywords
+# - scope: keyword.operator.new, keyword.control.from.js
+#   settings:
+#       foreground: _lighter-red
+# # JS operator
+# - scope: storage.modifier.async.js
+#   settings:
+#       foreground: _lighter-red
+# ------------------------------------------------
+#    Function keyword
+# ------------------------------------------------
+# - name: Function
+#   scope: storage.type.function.js
+#   settings:
+#       foreground: _red
+# # ------------------------------------------------
+# # YAML
+# # ------------------------------------------------
+# - scope: entity.name.tag.yaml
+#   settings:
+#       foreground: _blue

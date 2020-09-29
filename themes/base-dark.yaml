@@ -8,7 +8,7 @@ tokenColors:
       scope: comment
       settings:
           fontStyle: italic
-          foreground: _comment-gray
+          foreground: _gray
     # ------------------------------------------------
     #    String
     # ------------------------------------------------
@@ -20,36 +20,43 @@ tokenColors:
     #    Constant
     # ------------------------------------------------
     - name: Constant
-      scope: constant, punctuation.definition.template-expression
+      scope: constant
       settings:
           foreground: _orange
     # ------------------------------------------------
-    #    Variable
+    #    Variable & Keyword Operator = + - * /
     # ------------------------------------------------
     - name: Variable
-      scope: variable
+      scope: variable, keyword.operator
       settings:
           foreground: _white
     # ------------------------------------------------
-    #    Variable Parameter
+    #    Variable(Parameter)
     # ------------------------------------------------
-    - name: Variable
+    - name: Variable Paramater
       scope: variable.parameter
       settings:
           fontStyle: italic
-          foreground: _code-gray
+          foreground: _purple
     # ------------------------------------------------
-    #    Keyword
+    #    Other Variable
+    # ------------------------------------------------
+    - name: Other Variable
+      scope: variable.other.object
+      settings:
+          foreground: _pink
+    # ------------------------------------------------
+    #    Keyword Control return, from, await, import, if
     # ------------------------------------------------
     - name: Keyword
       scope: keyword.control
       settings:
-          foreground: _pink
+          foreground: _lighter-red
     # ------------------------------------------------
-    #    Function
+    #    Function Name
     # ------------------------------------------------
     - name: Function
-      scope: meta.function
+      scope: entity.name.function
       settings:
           foreground: _yellow
     # ------------------------------------------------
@@ -59,10 +66,3 @@ tokenColors:
       scope: entity.other.attribute-name
       settings:
           foreground: _blue
-    # ------------------------------------------------
-    #    Punctuation
-    # ------------------------------------------------
-    - name: Punctuation
-      scope: punctuation.definition.expression
-      settings:
-          foreground: _green

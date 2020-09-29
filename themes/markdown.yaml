@@ -35,12 +35,12 @@
 - scope: markup.inline
   settings:
       fontStyle: italic
-      foreground: _code-gray
+      foreground: _gray
 # Fenced Code Block
 - scope: markup.fenced_code.block.markdown
   settings:
       fontStyle: italic
-      foreground: _code-gray
+      foreground: _gray
 # Link Title, Image Title
 - scope: string.other.link.title.markdown, string.other.link.description.markdown, constant.other.reference.link.markdown
   settings:

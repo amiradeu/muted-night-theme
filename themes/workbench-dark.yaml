@@ -39,8 +39,8 @@ colors:
     # WINDOW BORDERS
     # ------------------------------------------------
     activityBar.border: _red # left-most
-    sideBar.border: _pink # explorer
-    editorGroup.border: _pink # between editor
+    sideBar.border: _gray # explorer
+    editorGroup.border: _gray # between editor
 
     # ------------------------------------------------
     # CODE EDITOR
@@ -106,3 +106,7 @@ colors:
     statusBar.noFolderBackground: _dark-gray
     statusBar.noFolderForeground: _gold
     statusBar.debuggingBackground: _red
+
+    # ------------------------------------------------
+    # PEEK VIEW
+    # ------------------------------------------------
