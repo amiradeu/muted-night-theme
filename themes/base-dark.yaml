@@ -17,14 +17,14 @@ tokenColors:
       settings:
           foreground: _gold
     # ------------------------------------------------
-    #    Constant
+    #    Constant - number, undefined, true, false
     # ------------------------------------------------
     - name: Constant
       scope: constant
       settings:
           foreground: _orange
     # ------------------------------------------------
-    #    Variable & Keyword Operator = + - * /
+    #    Variable Name & Keyword Operator = + - * /
     # ------------------------------------------------
     - name: Variable
       scope: variable, keyword.operator
@@ -37,14 +37,28 @@ tokenColors:
       scope: variable.parameter
       settings:
           fontStyle: italic
-          foreground: _purple
+          foreground: _pink
     # ------------------------------------------------
     #    Other Variable
     # ------------------------------------------------
     - name: Other Variable
       scope: variable.other.object
       settings:
-          foreground: _pink
+          foreground: _green
+    # ------------------------------------------------
+    #    Storage Type - let, const, var, function, class
+    # ------------------------------------------------
+    - name: Storage Type
+      scope: storage.type
+      settings:
+          foreground: _blue
+    # ------------------------------------------------
+    #    Attribute
+    # ------------------------------------------------
+    - name: Attribute
+      scope: entity.other.attribute-name
+      settings:
+          foreground: _blue
     # ------------------------------------------------
     #    Keyword Control return, from, await, import, if
     # ------------------------------------------------
@@ -56,13 +70,6 @@ tokenColors:
     #    Function Name
     # ------------------------------------------------
     - name: Function
-      scope: entity.name.function
+      scope: entity.name.function, support.function
       settings:
           foreground: _yellow
-    # ------------------------------------------------
-    #    Attribute
-    # ------------------------------------------------
-    - name: Attribute
-      scope: entity.other.attribute-name
-      settings:
-          foreground: _blue

@@ -27,11 +27,11 @@ To add syntax:
 | Gold          | String             | #DCCAA9 | (220, 202, 169) | ![color](./image/DCCAA9.png) |
 | Yellow        | Function           | #FFD074 | ()              | ![color](./image/FFD074.png) |
 | Orange        | Constant           | #DC944D | (220, 148, 77)  | ![color](./image/DC944D.png) |
-| Pink          | Keyword            | #F6D2DE | (246, 210, 222) | ![color](./image/F6D2DE.png) |
+| Pink          | Variable Parameter | #F6D2DE | (246, 210, 222) | ![color](./image/F6D2DE.png) |
 | Red           | Error              | #B05C52 | (176 ,92, 82)   | ![color](./image/B05C52.png) |
-| Lighter Red   | Keyword Control    | #FF7676 |                 | ![color](./image/FF7676.png) |
-| Purple        | Variable Parameter | #6D708B | (109, 112, 139) | ![color](./image/6D708B.png) |
-| Green         |                    | #659E65 | (101, 158, 101) | ![color](./image/659E65.png) |
+| Lighter Red   | Keyword            | #FF7676 |                 | ![color](./image/FF7676.png) |
+| Purple        |                    | #6D708B | (109, 112, 139) | ![color](./image/6D708B.png) |
+| Green         | Other Variable     | #7CAD7C | (101, 158, 101) | ![color](./image/659E65.png) |
 | Lighter Green |                    | #87DC7A | (101, 158, 101) | ![color](./image/87DC7A.png) |
 | Blue          | Attribute          | #8DACB4 | (141, 172, 180) | ![color](./image/8DACB4.png) |
 | Lighter Blue  | Links              | #3FBABE | (141, 172, 180) | ![color](./image/8DACB4.png) |
