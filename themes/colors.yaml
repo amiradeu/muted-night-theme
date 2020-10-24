@@ -3,6 +3,7 @@
 # ------------------------------------------------
 _darker-gray: "#323232"
 _dark-gray: "#383838"
+_light-gray: "#A3A3A022"
 _gray: "#A3A3A0"
 _white: "#E0E0E0"
 _pure-white: "#FFFFFF"

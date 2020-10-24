@@ -39,8 +39,8 @@ colors:
     # WINDOW BORDERS
     # ------------------------------------------------
     activityBar.border: _red # left-most
-    sideBar.border: _gray # explorer
-    editorGroup.border: _gray # between editor
+    sideBar.border: _light-gray # explorer
+    # editorGroup.border: _gray # between editor
 
     # ------------------------------------------------
     # CODE EDITOR
@@ -50,6 +50,7 @@ colors:
     editorLineNumber.foreground: _lighter-gold
     editorGroupHeader.border: _darker-gray
     editor.lineHighlightBackground: _darker-gray
+    editorError.foreground: _red
 
     # cursor
     editorCursor.foreground: _red
@@ -60,7 +61,15 @@ colors:
     tab.inactiveForeground: _lighter-gold
 
     # ------------------------------------------------
-    # NAVIGATION
+    # SCROLLBAR
+    # ------------------------------------------------
+    scrollbar.shadow: _darker-gray
+    scrollbarSlider.background: _light-gray
+    scrollbarSlider.activeBackground: _light-gray
+    scrollbarSlider.hoverBackground: _light-gray
+
+    # ------------------------------------------------
+    # NAVIGATION - breadcrumbs on top of file editor
     # ------------------------------------------------
     breadcrumb.foreground: _white
 
@@ -94,11 +103,11 @@ colors:
     # ------------------------------------------------
     # BUTTONS
     # ------------------------------------------------
-    button.background: _blue
-    button.foreground: _pure-white
+    button.background: _gold
+    button.foreground: _dark-gray
 
     # ------------------------------------------------
-    # BOTTOM BAR
+    # STATUS BAR - BOTTOM BAR
     # ------------------------------------------------
     statusBar.border: _darker-gray
     statusBar.background: _darker-gray
@@ -108,5 +117,21 @@ colors:
     statusBar.debuggingBackground: _red
 
     # ------------------------------------------------
-    # PEEK VIEW
+    # TERMINAL
     # ------------------------------------------------
+    terminalCursor.foreground: _red
+    terminal.ansiBlue: _blue
+    terminal.ansiBrightBlack: _light-gray
+    terminal.ansiBrightBlue: _lighter-blue
+    terminal.ansiBrightCyan: _lighter-pink
+    terminal.ansiBrightGreen: _green
+    terminal.ansiBrightMagenta: _lighter-red
+    terminal.ansiBrightRed: _red
+    terminal.ansiBrightWhite: _white
+    terminal.ansiBrightYellow: _orange
+    terminal.ansiCyan: _purple
+    terminal.ansiGreen: _green
+    terminal.ansiMagenta: _pink
+    terminal.ansiRed: _red
+    terminal.ansiWhite: _white
+    terminal.ansiYellow: _yellow
