@@ -1,11 +1,6 @@
 colors:
     # ------------------------------------------------
-    # BASE
-    # ------------------------------------------------
-    foreground: _gold
-
-    # ------------------------------------------------
-    # LEFT MOST SIDEBAR
+    # LEFT MOST BAR - the one with icons
     # ------------------------------------------------
     activityBar.background: _dark-gray
     activityBar.foreground: _gold
