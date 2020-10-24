@@ -9,7 +9,7 @@ To add syntax:
 -   [x] Markdown \*.md
 -   [x] JSON \*.json
 -   [x] Hypertext Markup Language \*.html
--   [] Content Style Sheet \*.css
+-   [x] Content Style Sheet \*.css
 -   [] Javascript \*.js
 -   [] React \*.jsx
 -   [] Vue
@@ -25,8 +25,8 @@ To add syntax:
 | White         | Variable, Operator | #E0E0E0 | (224, 224, 224) | ![color](./image/E0E0E0.png) |
 | Pure White    |                    | #FFFFFF | (255, 255, 255) | ![color](./image/FFFFFF.png) |
 | Gold          | String             | #DCCAA9 | (220, 202, 169) | ![color](./image/DCCAA9.png) |
-| Yellow        | Function           | #FFD074 | ()              | ![color](./image/FFD074.png) |
-| Orange        | Constant           | #DC944D | (220, 148, 77)  | ![color](./image/DC944D.png) |
+| Yellow        | Function, Support  | #FFD074 | ()              | ![color](./image/FFD074.png) |
+| Orange        | Constant Numeric   | #DC944D | (220, 148, 77)  | ![color](./image/DC944D.png) |
 | Pink          | Variable Parameter | #F6D2DE | (246, 210, 222) | ![color](./image/F6D2DE.png) |
 | Red           | Error              | #B05C52 | (176 ,92, 82)   | ![color](./image/B05C52.png) |
 | Lighter Red   | Keyword            | #FF7676 |                 | ![color](./image/FF7676.png) |
