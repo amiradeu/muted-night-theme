@@ -46,6 +46,8 @@ colors:
     editorGroupHeader.border: _darker-gray
     editor.lineHighlightBackground: _darker-gray
     editorError.foreground: _red
+    editorWarning.foreground: _yellow
+    editorInfo.foreground: _green
 
     # cursor
     editorCursor.foreground: _red
