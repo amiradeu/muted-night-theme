@@ -4,17 +4,11 @@
 
 ## Supported Languages
 
-TODO Supported syntax:
-
--   [x] Markdown \*.md
+-   [x] Markdown \*.md & Logs \*.log
 -   [x] JSON \*.json & YAML \*.yaml
 -   [x] Hypertext Markup Language \*.html
 -   [x] Content Style Sheet \*.css
--   [] \*.log
 -   [x] Javascript \*.js & Typescript \*.ts
--   [x] React \*.jsx
--   [x] Vue
--   [x] Angular
 -   [] Python
 
 ## Color Palette
