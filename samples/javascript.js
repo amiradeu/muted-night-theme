@@ -94,7 +94,7 @@ async function getUser() { // The returned promise will be rejected!
     throw "User not found !";
   }
   
-  async function getAvatarByUsername(userId) => {
+  async function getAvatarByUsername((userId) => {
     const user = await getUser(userId);
     return user.avatar;
   }

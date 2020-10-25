@@ -11,10 +11,10 @@ TODO Supported syntax:
 -   [x] Hypertext Markup Language \*.html
 -   [x] Content Style Sheet \*.css
 -   [] \*.log
--   [] Javascript \*.js
--   [] React \*.jsx
--   [] Vue
--   [] Angular
+-   [x] Javascript \*.js & Typescript \*.ts
+-   [x] React \*.jsx
+-   [x] Vue
+-   [x] Angular
 -   [] Python
 
 ## Color Palette

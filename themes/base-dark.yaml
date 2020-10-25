@@ -37,14 +37,14 @@ tokenColors:
       scope: variable.parameter
       settings:
           fontStyle: italic
-          foreground: _pink
+          foreground: _green
     # ------------------------------------------------
     #    Other Variable
     # ------------------------------------------------
     - name: Other Variable
       scope: variable.other.object
       settings:
-          foreground: _green
+          foreground: _pink
     # ------------------------------------------------
     #    Storage Type - let, const, var, function, class
     # ------------------------------------------------
