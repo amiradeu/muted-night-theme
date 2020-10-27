@@ -2,6 +2,12 @@
 
 > A Muted colors in dark and light theme with a subtle touch of rich color
 
+# Screenshot
+
+> a work in progress theme
+
+![screenshot](./image/screenshot.png)
+
 ## Supported Languages
 
 -   [x] Markdown \*.md & Logs \*.log

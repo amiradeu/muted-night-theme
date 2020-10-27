@@ -1,5 +1,5 @@
 /**
- * 
+ * Muted Theme
  */
 
  class Color{
@@ -15,7 +15,7 @@
     }
 
     findWorld(){
-        return random(100);
+        return random(yellow + red * blue);
     }
  }
 
