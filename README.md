@@ -1,3 +1,5 @@
+<p align="center"><img width="500px" src="./image/muted-theme.png"></p>
+
 # Muted Theme
 
 > A Muted colors in dark and light theme with a subtle touch of rich color
