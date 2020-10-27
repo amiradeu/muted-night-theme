@@ -20,7 +20,7 @@
       foreground: _blue
 # JS Keyword
 - scope: variable.language.this.js, variable.language.super.js,
-      keyword.operator.new.js, entity.other.inherited-class.js
+      keyword.operator.new.js
   settings:
       foreground: _lighter-red
 # ------------------------------------------------
