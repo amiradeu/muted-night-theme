@@ -1,4 +1,4 @@
-<p align="center"><img width="500px" src="./image/muted-theme.png"></p>
+<p align="center"><img width="200px" src="./image/muted-theme.png"></p>
 
 # Muted Theme
 
