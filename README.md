@@ -3,21 +3,19 @@
 # Muted Theme
 
 > A Muted colors in dark and light theme with a subtle touch of rich color
-
-# Screenshot
-
-> a work in progress theme
+---
+> a work-in-progress theme
 
 ![screenshot](./image/screenshot.png)
 
 ## Supported Languages
-
+Muted Theme are optimized for many programming languages:
 -   [x] Markdown \*.md & Logs \*.log
 -   [x] JSON \*.json & YAML \*.yaml
 -   [x] Hypertext Markup Language \*.html
 -   [x] Content Style Sheet \*.css
 -   [x] Javascript \*.js & Typescript \*.ts
--   [] Python
+-   [x] Python
 
 ## Color Palette
 
