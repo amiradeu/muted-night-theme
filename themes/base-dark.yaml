@@ -5,7 +5,7 @@ tokenColors:
     #    Comment
     # ------------------------------------------------
     - name: Comment
-      scope: comment
+      scope: comment, punctuation.definition.comment
       settings:
           fontStyle: italic
           foreground: _gray
@@ -13,7 +13,7 @@ tokenColors:
     #    String
     # ------------------------------------------------
     - name: String
-      scope: string
+      scope: string, punctuation.definition.string
       settings:
           foreground: _gold
     # ------------------------------------------------
@@ -27,7 +27,7 @@ tokenColors:
     #    Variable Name & Keyword Operator = + - * /
     # ------------------------------------------------
     - name: Variable
-      scope: variable, keyword.operator
+      scope: variable, keyword.operator, punctuation
       settings:
           foreground: _white
     # ------------------------------------------------
@@ -70,6 +70,7 @@ tokenColors:
     #    Function Name
     # ------------------------------------------------
     - name: Function
-      scope: entity.name.function, support.function
+      scope: entity.name.function, support.function,
+            	entity.name.type.class
       settings:
           foreground: _yellow
